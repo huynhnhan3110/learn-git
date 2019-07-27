@@ -35,3 +35,5 @@
 ---
 * git revert <hash> // nó sẽ tạo cho mình một commit mới chứa cái mà hash chưa được commit. sau đó mình tiếp tục thêm vào cái mình muốn rồi commit lại nó sẽ theo quy tắc cầu thang, nó là bậc cao nhất. (hạn chế sử dụng nếu có nhiều edit trong một file) => nên làm bằng cách tạo 1 branch mới rồi chỉnh sửa trên branch đó rồi quay về branch master merge nó vào.
 ---
+.gitignore // dùng để bỏ folder khỏi staging area để không commit nó.
+---

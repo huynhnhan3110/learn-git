@@ -1,5 +1,5 @@
+var chalk = require('chalk');
 function mouse() {
     this.name = name;
 }
-
-module.exports = cat;
+console.log('Xin chao ' + chalk.bgGreen.blue('Cac ban'));
