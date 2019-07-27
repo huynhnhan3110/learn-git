@@ -32,3 +32,6 @@
 * git reset --soft <hash>// chuyển về staging area của commit trước
 * git reset --mixed <hash> // chuyển về working directory của commit trước
 * git reset --hard <hash> // xóa tất cả các commit từ hash trở về sau, giữ lại lại các commit trước hash. (Chú ý khi sử dụng)
+---
+* git revert <hash> // nó sẽ tạo cho mình một commit mới chứa cái mà hash chưa được commit. sau đó mình tiếp tục thêm vào cái mình muốn rồi commit lại nó sẽ theo quy tắc cầu thang, nó là bậc cao nhất. (hạn chế sử dụng nếu có nhiều edit trong một file) => nên làm bằng cách tạo 1 branch mới rồi chỉnh sửa trên branch đó rồi quay về branch master merge nó vào.
+---
