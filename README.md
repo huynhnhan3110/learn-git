@@ -28,3 +28,7 @@
 
 * nếu muốn gộp nhánh thì phải vào nhánh gốc rồi mới merge nhánh cần gộp
 * git merge <nhánh cần gộp>
+---
+* git reset --soft <hash>// chuyển về staging area của commit trước
+* git reset --mixed <hash> // chuyển về working directory của commit trước
+* git reset --hard <hash> // xóa tất cả các commit từ hash trở về sau, giữ lại lại các commit trước hash. (Chú ý khi sử dụng)
