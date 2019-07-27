@@ -1,3 +1,1 @@
-function myDog(){
-    
-}
+console.log('dog cua toi')
