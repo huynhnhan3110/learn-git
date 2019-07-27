@@ -1,6 +1,5 @@
 #Coders Tokyo Git Course
 ##Git cheat sheet
-haha
 * git init
 * git status
 * git add .
@@ -16,4 +15,16 @@ haha
 ---
 * git checkout // chua git add ma muon huy thay doi
 * git reset // dang o trong staging area (da duoc add ) ma muon quay lai working directory (luc chua duoc add)
+---
+* git branch // xem tat ca cac nhanh
+* git branch m1 // tao nhanh m1 
+* git branch -d m1 // xoa nhanh m1
 
+* git checkout -b thubay // tao 1 nhanh co ten la thu bay dong thoi chuyen minh sang nhanh do
+
+* git checkout master // chuyen nhanh ve master ( se khong co nhung thu lien quan den nhanh thubay)
+* git checkout m1 // chuyen lai nhanh m1
+* git 
+
+* nếu muốn gộp nhánh thì phải vào nhánh gốc rồi mới merge nhánh cần gộp
+* git merge <nhánh cần gộp>
