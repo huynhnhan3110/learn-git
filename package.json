@@ -1,0 +1,14 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "* git init\r * git status\r * git add .\r * git commit -m \"content commit\"\r ---\r * git log // show time + content commit + key commit \r * git show // show content of new file after commit\r * git diff // show content different code in file (old file)\r ---\r * working directory // chua duoc git add .\r * staging area // dang duoc git add chua duoc git commit\r * git repository // da duoc commit\r ---\r * git checkout // chua git add ma muon huy thay doi\r * git reset // dang o trong staging area (da duoc add ) ma muon quay lai working directory (luc chua duoc add)\r ---\r * git branch // xem tat ca cac nhanh\r * git branch m1 // tao nhanh m1 \r * git branch -d m1 // xoa nhanh m1",
+  "main": "cat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  }
+}
