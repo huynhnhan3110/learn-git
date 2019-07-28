@@ -1,1 +1,3 @@
-console.log('dog cua toi')
+function myDog() {
+    this.isAlive = false;
+}
