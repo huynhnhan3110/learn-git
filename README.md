@@ -40,3 +40,7 @@
 * git remote add origin <link co duoi .git> // kéo project mới tạo về để làm việc
 * git push -u origin master // để push lần đầu tiên (yêu cầu username và pass để xác nhận)
 * git push // để push những lần sau
+---
+* git config --global credential.helper store // save not encode in ~/git.credentials
+* git config --global credential.helper "cache --timeout=18000" // sau 5 tiếng (1800s) sẽ yêu cầu nhập lại password
+* git ssh
