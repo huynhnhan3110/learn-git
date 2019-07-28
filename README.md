@@ -1,6 +1,6 @@
-#Coders Tokyo Git Course
+# Coders Tokyo Git Course
 
-##Git cheat sheet
+## Git cheat sheet
 * git init
 * git status
 * git add .
