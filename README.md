@@ -44,3 +44,6 @@
 * git config --global credential.helper store // save not encode in ~/git.credentials
 * git config --global credential.helper "cache --timeout=18000" // sau 5 tiếng (1800s) sẽ yêu cầu nhập lại password
 * git ssh
+---
+* git clone // clone 1 project nào đó chưa có trên máy mình để về làm việc
+* git pull // ví dụ trên repo có thay đổi thì sau khi mình đã clone thì chỉ cần pull để nó update thay đổi đó cho project ở máy mình. 
