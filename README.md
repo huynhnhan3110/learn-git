@@ -51,5 +51,3 @@
 --- 
 * git push origin <branch> // push branch lên trên github sau khi đã làm việc trên branch đó.
 * git fetch origin <branch> // người reviewer gõ branch muốn kéo về để review code .
-
-123
