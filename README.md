@@ -37,3 +37,6 @@
 ---
 * .gitignore // dùng để bỏ folder khỏi staging area để không commit nó.
 ---
+* git remote add origin <link co duoi .git> // kéo project mới tạo về để làm việc
+* git push -u origin master // để push lần đầu tiên (yêu cầu username và pass để xác nhận)
+* git push // để push những lần sau
