@@ -1,5 +1,5 @@
 # Coders Tokyo Git Course
-
+13/10/2019
 ## Git cheat sheet
 * git init
 * git status
